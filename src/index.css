@@ -34,19 +34,19 @@ ul li {
     flex-direction: column;
     align-items: center;
     position: absolute;
-    top: 43px;
+    top: 45px;
     left: 0;
     right: 0;
     bottom: 0;
     background-color: rgba(7, 7, 251, 0.674);
     padding-top: 15px;
-    transform: translateX(-1000px); 
+    transform: translateY(-1000px); 
     transition: all 0.4s;  
   }
   .menus{
     display: flex;
   }
-  nav ul .active{
-    transform: translateX(0);
+  nav ul.active{
+    transform: translateY(-0px);
   }
 }
